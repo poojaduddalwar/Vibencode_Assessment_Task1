@@ -143,6 +143,12 @@ footer div.fcontent2 ul li {
   padding: 5px;
 }
 
+@media (max-width: 675px) {
+  div.form {
+    width: auto;
+  }
+}
+
 @media (max-width: 459px) {
   body {
     background-color: white;
@@ -179,5 +185,10 @@ footer div.fcontent2 ul li {
     width: auto;
     color: white;
     background-color: rgb(23, 23, 38);
+  }
+
+  div.form form button {
+    color: black;
+    background-color: white;
   }
 }
